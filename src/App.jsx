@@ -98,7 +98,7 @@ const handleCalculate = ()=>{
               <span className='text-danger'>*Invalid Input</span>}
               </div>
 
-              <div className='mb-3'> <Button variant="contained" onClick={handleCalculate} className='p-2' style={{width:'100px'}}>Calculate</Button>
+              <div className='mb-3 text-center'> <Button variant="contained" onClick={handleCalculate} className='p-2' style={{width:'100px'}}>Calculate</Button>
 
               
       <Button variant="outlined"  onClick={handleReset} className='p-2 ms-5' style={{width:'100px'}}>Reset</Button></div>
